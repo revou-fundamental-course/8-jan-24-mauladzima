@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    background-color: rgb(249, 245, 217);
+}
+
+header {
+    text-align: center;
+}
+
+header h1 {
+    color:#638889;
+    background-color: rgb(218, 238, 218);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+}
+
+header h4 {
+    margin-top: 32px;
+    color: #81a47c;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header p { 
+    margin-top: -10px;
+    margin-bottom: 19px;
+    font-size: x-small;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #1a7324;
+}
+
+.inputSection {
+    font-size: 13px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#squareSide {
+    margin-top: 10px;
+    outline: none;
+    border-radius: 8px;
+    border: solid #EBD9B4;
+    padding: 7px;
+}
+
+#squareSide:focus {
+    border:solid #d5b574;
+}
+
+button {
+    background-color: #a3b5b7;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(254, 248, 248);
+    border: none;
+    border-radius: 8px;
+    padding: 7px 9px;
+    margin-top: 7px;
+    cursor:pointer;
+}
+
+button:hover {
+    background-color:#8f9fa0;
+}
+
+button:active {
+    background-color:#405e61 ;
+    transform: translateY(1px);
+}
+
+
+
